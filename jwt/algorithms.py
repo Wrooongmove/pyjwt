@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import hashlib
 import hmac
+import math
 import json
 from abc import ABC, abstractmethod
 from typing import TYPE_CHECKING, Any, ClassVar, Literal, NoReturn, cast, overload
